@@ -1,0 +1,1375 @@
+apiVersion: v1
+entries:
+  bootstrap-capi:
+  - apiVersion: v2
+    appVersion: 1.9.4
+    created: "2025-05-22T16:05:11.772181708Z"
+    description: A Helm chart for Cluster API bootstrap providers
+    digest: 822e665ede93d439d0d2a27bf3548a8a7fc4954a4efaa679adc79e3e0016c801
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: bootstrap-capi
+    type: application
+    urls:
+    - bootstrap-capi-1.9.4.tgz
+    version: 1.9.4
+  - apiVersion: v2
+    appVersion: 1.7.1
+    created: "2025-05-22T16:05:11.769992954Z"
+    description: A Helm chart for Kubernetes
+    digest: 9e995cc0bd95d662f5def84b5372ed86f71859297cda6f0edbfb4b208da5692b
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: bootstrap-capi
+    type: application
+    urls:
+    - bootstrap-capi-1.7.1.tgz
+    version: 1.7.1
+  cert-manager:
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v2
+    appVersion: 1.16.3
+    created: "2025-05-22T16:05:11.784038205Z"
+    description: A Helm chart for cert-manager
+    digest: a92abd40aa33cc4fb0bf70fd55fb9bb00df4065b0142b2c6128d3117ccb87db1
+    home: https://cert-manager.io
+    icon: icons/cert-manager-icon.svg
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - cert-manager-1.16.3.tgz
+    version: 1.16.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: 1.14.5
+    created: "2025-05-22T16:05:11.775920963Z"
+    description: A Helm chart for cert-manager
+    digest: 85ef7752eba282fd309d2897f547385dc854759d1675911b31f075d30afdffc2
+    home: https://github.com/cert-manager/cert-manager
+    icon: icons/cert-manager-icon.svg
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - cert-manager-1.14.5.tgz
+    version: 1.14.5
+  - apiVersion: v1
+    appVersion: 1.9.1
+    created: "2025-05-22T16:05:11.787825491Z"
+    description: A Helm chart for cert-manager
+    digest: f18a6a9b1cfeba3964b6fc86f6dadfec6f88ce6f2048a76fb92ee69c871ea013
+    home: https://github.com/cert-manager/cert-manager
+    icon: icons/cert-manager-icon.svg
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: < 1.31.0
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - cert-manager-1.9.1.tgz
+    version: 1.9.1
+  cert-manager-webhook-oci:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2025-05-22T16:05:11.788389141Z"
+    description: Allow cert-manager to solve DNS challenges using Oracle Cloud Infrastructure
+      DNS
+    digest: 7d1bf868aa7e5abf7738743cb540b5f8cb5ea5c73a52084d9b0121ede7353fbb
+    icon: icons/cert-manager-webhook-oci-icon.svg
+    kubeVersion: '>= 1.26.0'
+    name: cert-manager-webhook-oci
+    urls:
+    - cert-manager-webhook-oci-1.1.0.tgz
+    version: 1.1.0
+  control-plane-capi:
+  - apiVersion: v2
+    appVersion: 1.9.4
+    created: "2025-05-22T16:05:11.793908472Z"
+    description: A Helm chart for Cluster API control plane providers
+    digest: cfc4ada2774ff312d950915e76e0feb9fe72024538b38ad5f7820ccd79af359f
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: control-plane-capi
+    type: application
+    urls:
+    - control-plane-capi-1.9.4.tgz
+    version: 1.9.4
+  - apiVersion: v2
+    appVersion: 1.7.1
+    created: "2025-05-22T16:05:11.790874395Z"
+    description: A Helm chart for Kubernetes
+    digest: 64e77b61f7be287c6bb17007634c335d25c9903ae0eb432378465ac8c4916bde
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: control-plane-capi
+    type: application
+    urls:
+    - control-plane-capi-1.7.1.tgz
+    version: 1.7.1
+  core-capi:
+  - apiVersion: v2
+    appVersion: 1.9.4
+    created: "2025-05-22T16:05:11.800104268Z"
+    description: Helm chart for Cluster API core provider
+    digest: 89f96141a389bfa31314e530811072a62b0f52a73c38dc99535fca0df0c4a746
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: core-capi
+    type: application
+    urls:
+    - core-capi-1.9.4.tgz
+    version: 1.9.4
+  - apiVersion: v2
+    appVersion: 1.7.1
+    created: "2025-05-22T16:05:11.796557899Z"
+    description: A Helm chart for Kubernetes
+    digest: d50e3ba1c2d8d48d2947309364e32706f3ba971fa1d47c5abcae83c81cf7f3d4
+    icon: icons/capi.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: core-capi
+    type: application
+    urls:
+    - core-capi-1.7.1.tgz
+    version: 1.7.1
+  coredns:
+  - annotations:
+      ocne.oracle.com/mirror: "false"
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-05-22T16:05:11.801260994Z"
+    description: CoreDNS is a DNS server that chains plugins and provides Kubernetes
+      DNS Services
+    digest: 472c1bccfacc87d5a894d5676648963d9d05df8450bef92346cd65458f8b3679
+    home: https://coredns.io
+    icon: icons/CoreDNS_Colour_Icon.svg
+    keywords:
+    - coredns
+    - dns
+    - kubedns
+    kubeVersion: '>= 1.26.0'
+    maintainers:
+    - name: mrueg
+    - name: haad
+    - name: hagaibarel
+    - name: shubham-cmyk
+    name: coredns
+    sources:
+    - https://github.com/coredns/coredns
+    type: application
+    urls:
+    - coredns-2.0.0.tgz
+    version: 2.0.0
+  csi-driver-nfs:
+  - apiVersion: v1
+    appVersion: 4.11.0
+    created: "2025-05-22T16:05:11.80236612Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: e4ebd7942237f39bdba4c96f9168709bdb8da663fd19167e6bcb755538dca080
+    icon: icons/kubernetes-logo.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: csi-driver-nfs
+    urls:
+    - csi-driver-nfs-4.11.0.tgz
+    version: 4.11.0
+  dex:
+  - apiVersion: v2
+    appVersion: 2.39.1
+    created: "2025-05-22T16:05:11.803313117Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors.
+    digest: 1138a1b5dbbee6e5499a54ef1a70781902ecf021a759784f728010642fee0a01
+    home: https://dexidp.io/
+    icon: icons/dex-icon.svg
+    keywords:
+    - oidc
+    - oauth
+    - identity-provider
+    - saml
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    maintainers:
+    - email: mark.sagikazar@gmail.com
+      name: sagikazarmark
+      url: https://sagikazarmark.hu
+    name: dex
+    sources:
+    - https://github.com/dexidp/dex
+    - https://github.com/dexidp/helm-charts/tree/master/charts/dex
+    type: application
+    urls:
+    - dex-2.39.1.tgz
+    version: 2.39.1
+  externalip-webhook:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-05-22T16:05:11.803663532Z"
+    description: A webhook that validates IP addresses assigned to ExternalIP services
+      against an allow list
+    digest: 948251cdc7a89b68de76615d9bf67d92cefdc06e901a4e9b49132d0772647015
+    icon: icons/kubernetes-logo.svg
+    kubeVersion: '>= 1.26.0'
+    name: externalip-webhook
+    type: application
+    urls:
+    - externalip-webhook-1.0.0.tgz
+    version: 1.0.0
+  flannel:
+  - annotations:
+      ocne.oracle.com/mirror: "false"
+    apiVersion: v1
+    appVersion: 2.0.0
+    created: "2025-05-22T16:05:11.804162158Z"
+    description: Flannel CNI
+    digest: 74a4929db7bc25e53b7b9b6db0ce18bcbc0af9338cbdcf2e458b74f7a4d1808c
+    icon: icons/flannel-icon.svg
+    keywords:
+    - Flannel
+    kubeVersion: '>= 1.26.0'
+    name: flannel
+    sources:
+    - https://github.com/flannel-io/flannel
+    urls:
+    - flannel-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 0.22.3
+    created: "2025-05-22T16:05:11.803926982Z"
+    description: Install Flannel Network Plugin.
+    digest: 68ff54a0dab50b7b70eb209af8832f4031b4c4adf175740677d401a58576f4af
+    icon: icons/flannel-icon.svg
+    keywords:
+    - Flannel
+    kubeVersion: < 1.31
+    name: flannel
+    sources:
+    - https://github.com/flannel-io/flannel
+    urls:
+    - flannel-0.22.3.tgz
+    version: 0.22.3
+  fluent-operator:
+  - apiVersion: v2
+    appVersion: 3.2.0
+    created: "2025-05-22T16:05:11.813176903Z"
+    description: Fluent Operator provides great flexibility in building a logging
+      layer based on Fluent Bit and Fluentd.
+    digest: 17af3861233186059eafb67dbf3b7df7ec644aced033ec5bea3b0c519f07fe7d
+    home: https://www.fluentd.org/
+    icon: icons/fluent-operator-icon.svg
+    keywords:
+    - logging
+    - fluent-bit
+    - fluentd
+    - operator
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: fluent-operator
+    sources:
+    - https://github.com/fluent/fluent-operator
+    urls:
+    - fluent-operator-3.2.0.tgz
+    version: 3.2.0
+  fluentd:
+  - apiVersion: v1
+    appVersion: 1.14.5
+    created: "2025-05-22T16:05:11.813646394Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Fluentd
+    digest: 1119a107201b148e50b07323714a5f23ccb7e24f7cf4ee644388b732c165a162
+    icon: icons/fluentd-icon.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: fluentd
+    urls:
+    - fluentd-1.14.5.tgz
+    version: 1.14.5
+  grafana:
+  - apiVersion: v2
+    appVersion: 7.5.17
+    created: "2025-05-22T16:05:11.814811165Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 032e1c10eb9eb293a7eb1918d5903068285eefd8fdb5dd59a3af6accb65e067b
+    icon: icons/grafana-icon.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: murali.annamneni@oracle.com
+      name: Murali Annamneni
+    name: grafana
+    type: application
+    urls:
+    - grafana-7.5.17.tgz
+    version: 7.5.17
+  ingress-nginx:
+  - apiVersion: v2
+    appVersion: 1.12.1
+    created: "2025-05-22T16:05:11.818252684Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 4ae0d94d0c9bd1f25cc2eeab3c5ae4a2d5de2b0a27fa6529a3cecac603fb4bbe
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: icons/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - name: cpanato
+    - name: Gacko
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx-1.12.1.tgz
+    version: 1.12.1
+  - apiVersion: v2
+    appVersion: 1.9.6
+    created: "2025-05-22T16:05:11.822287039Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: b1954a5dc86336bd4180a9fd20352a05be8b4e166f4ad0f18fff1d35325a06ee
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: icons/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - name: mannamne
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx-1.9.6.tgz
+    version: 1.9.6
+  istio-base:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.830171159Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: f51032c3a1f487b64b2c7471d6509ce300a4bc39701c2d5bc870d8bb887d156a
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-base
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-base-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v1
+    appVersion: 1.22.6
+    created: "2025-05-22T16:05:11.828088698Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 7716e45540ec1073daa6882513804e9c665e19cd684d23db4208cafc434b2fe6
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-base
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-base-1.22.6.tgz
+    version: 1.22.6
+  - apiVersion: v1
+    appVersion: 1.20.5
+    created: "2025-05-22T16:05:11.824773377Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 2d08ab62027a502bba1315a94b138152b44f8b7f7fd663a4081f4320c32da9ba
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    kubeVersion: '>= 1.29.0 < 1.32.0'
+    name: istio-base
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-base-1.20.5.tgz
+    version: 1.20.5
+  - apiVersion: v1
+    appVersion: 1.19.9
+    created: "2025-05-22T16:05:11.823249315Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 67feb8d1d3dc89990a7a0ad9fb390e64341cd38dcf771a9b2da70c85efc889af
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    kubeVersion: < 1.31.0
+    name: istio-base
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-base-1.19.9.tgz
+    version: 1.19.9
+  istio-cni:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.830921022Z"
+    description: Helm chart for istio-cni components
+    digest: cf17d420a5d6356bcfd72e0f70da6dc6b1fec93de4cec920ce700169c0cf3154
+    icon: icons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-cni
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-cni-1.24.1.tgz
+    version: 1.24.1
+  istio-egress:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.83566318Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 4d51b8072c53c4d1eb764c064fc7ee667daa08854d7f2867e4624d615503e3b8
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-egress
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-egress-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v1
+    appVersion: 1.22.6
+    created: "2025-05-22T16:05:11.834408739Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 64e448ac7ecf7be01686849aedc1796a88d9687cae5bec043835a5d74c22499c
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-egress
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-egress-1.22.6.tgz
+    version: 1.22.6
+  - apiVersion: v1
+    appVersion: 1.20.5
+    created: "2025-05-22T16:05:11.83256985Z"
+    description: Helm chart for deploying Istio gateways
+    digest: b924b4f282a4a03ddb6e28145f6abaa57485e52d9d0ad62418ed3f0872c517f7
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    kubeVersion: '>= 1.29.0 < 1.32.0'
+    name: istio-egress
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-egress-1.20.5.tgz
+    version: 1.20.5
+  - apiVersion: v1
+    appVersion: 1.19.9
+    created: "2025-05-22T16:05:11.831804538Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 58eb134323be7fda328b5a686ead27de22b5c8f00791ccde744252afc9ae0107
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    kubeVersion: < 1.31.0
+    name: istio-egress
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-egress-1.19.9.tgz
+    version: 1.19.9
+  istio-gateway:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.837088344Z"
+    description: Helm chart for deploying Istio gateways
+    digest: bf0864a029df7684f630096b2d4630c390a691158911a86000a49ba94bfe7b73
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-gateway
+    sources:
+    - https://github.com/istio/istio
+    type: application
+    urls:
+    - istio-gateway-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v2
+    appVersion: 1.22.6
+    created: "2025-05-22T16:05:11.836309485Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 9f6c444a1f2c78796b61f9a987873d4c6270ee217a568ccfdaade5301e5b68b8
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-gateway
+    sources:
+    - https://github.com/istio/istio
+    type: application
+    urls:
+    - istio-gateway-1.22.6.tgz
+    version: 1.22.6
+  istio-ingress:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.840936535Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 9385e0acfcb77eef7e5796b1bb1195af1e6be5348048a67a755f3c1a1eeafbb9
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - istio-ingress-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v1
+    appVersion: 1.22.6
+    created: "2025-05-22T16:05:11.839745285Z"
+    description: Helm chart for deploying Istio gateways
+    digest: f5909f4d3eb8a73ea3cfb04e5e721965eb015d5d7260b8f046d3950a2ffe176c
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - istio-ingress-1.22.6.tgz
+    version: 1.22.6
+  - apiVersion: v1
+    appVersion: 1.20.5
+    created: "2025-05-22T16:05:11.838878942Z"
+    description: Helm chart for deploying Istio gateways
+    digest: e1d85f19b47ac1f8052a3f905ba0aeff0b39751373c96666835f11421213eeaf
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    kubeVersion: '>= 1.29.0 < 1.32.0'
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - istio-ingress-1.20.5.tgz
+    version: 1.20.5
+  - apiVersion: v1
+    appVersion: 1.19.9
+    created: "2025-05-22T16:05:11.83803467Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 09a0824f64b80791e9496746d3ee7b53786d72676167ed7bbfab3d973a2706d4
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    kubeVersion: < 1.31.0
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - istio-ingress-1.19.9.tgz
+    version: 1.19.9
+  istio-ztunnel:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.841644619Z"
+    description: Helm chart for istio ztunnel components
+    digest: 6eaf004d28fd2bf4048e986d44a42953dd166f23e1c4150b44422edc7ef4e0d8
+    icon: icons/android-192x192.png
+    keywords:
+    - istio-ztunnel
+    - istio
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istio-ztunnel
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istio-ztunnel-1.24.1.tgz
+    version: 1.24.1
+  istiod:
+  - apiVersion: v2
+    appVersion: 1.24.1
+    created: "2025-05-22T16:05:11.849129922Z"
+    description: Helm chart for istio control plane
+    digest: d73a15ea5229c99253e3086c12210708896a75ba4f323a28a91fb6f21ebb0921
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istiod
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istiod-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v1
+    appVersion: 1.22.6
+    created: "2025-05-22T16:05:11.847564863Z"
+    description: Helm chart for istio control plane
+    digest: eef93a1e834c264b08ea5751daff0246a8ea1b8ea4fccab40af94a52a8ea6a4a
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: istiod
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istiod-1.22.6.tgz
+    version: 1.22.6
+  - apiVersion: v1
+    appVersion: 1.20.5
+    created: "2025-05-22T16:05:11.846157873Z"
+    description: Helm chart for istio control plane
+    digest: 2f220f5ee2b117a3a44f512f21b7c31b7c5022540cfdabab067b436a1f9b68a7
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    kubeVersion: '>= 1.29.0 < 1.32.0'
+    name: istiod
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istiod-1.20.5.tgz
+    version: 1.20.5
+  - apiVersion: v1
+    appVersion: 1.19.9
+    created: "2025-05-22T16:05:11.844332379Z"
+    description: Helm chart for istio control plane
+    digest: b87c99e28b8eeeabbc6c289ca017ec41b0a2a9953e2eb700aab991be7810a649
+    icon: icons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    kubeVersion: < 1.31.0
+    name: istiod
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - istiod-1.19.9.tgz
+    version: 1.19.9
+  keycloak:
+  - apiVersion: v2
+    appVersion: 21.1.2
+    created: "2025-05-22T16:05:11.85073081Z"
+    deprecated: true
+    description: Keycloak.X - Open Source Identity and Access Management for Modern
+      Applications and Services
+    digest: 4db75c08f9b64a2be095acb304478e23c8f0bf852b13d482e3067a61fdf1ff50
+    home: https://www.keycloak.org/
+    icon: icons/keycloak_logo.svg
+    keywords:
+    - sso
+    - idm
+    - openid connect
+    - saml
+    - kerberos
+    - oauth
+    - ldap
+    - keycloakx
+    - quarkus
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: thomas.darimont+github@gmail.com
+      name: thomasdarimont
+    name: keycloak
+    sources:
+    - https://github.com/codecentric/helm-charts
+    - https://github.com/keycloak/keycloak/tree/main/quarkus/container
+    urls:
+    - keycloak-21.1.2.tgz
+    version: 21.1.2
+  kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.63.0
+    created: "2025-05-22T16:05:11.873690745Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: file://../kube-state-metrics-2.8.2
+      version: 2.8.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: file://../prometheus-node-exporter-1.6.1
+      version: 1.6.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: file://../grafana-7.5.17
+      version: 7.5.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: d40f72be2720647075389cc8099e466f4f9c70112ee6e53d89ef65fe0207e3ca
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: icons/prometheus-logo.svg
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-0.63.0.tgz
+    version: 0.63.0
+  kube-proxy:
+  - annotations:
+      ocne.oracle.com/mirror: "false"
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-05-22T16:05:11.874163933Z"
+    description: The kube-proxy addon
+    digest: 6552a462e8c19ffdd920146c3613a5610b47f8618239e5d4f746363901c83c34
+    icon: icons/kubernetes-logo.svg
+    kubeVersion: '>= 1.26.0'
+    name: kube-proxy
+    type: application
+    urls:
+    - kube-proxy-2.0.0.tgz
+    version: 2.0.0
+  kube-state-metrics:
+  - apiVersion: v2
+    appVersion: 2.8.2
+    created: "2025-05-22T16:05:11.875442268Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: a27e757fe8b1f209f224dfaa9ce15a9d2f3d892ff43dfbf0d240f66d3435fa61
+    home: https://github.com/kubernetes/kube-state-metrics/
+    icon: icons/kube-state-metrics-icon.svg
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-2.8.2.tgz
+    version: 2.8.2
+  kubernetes-gateway-api-crds:
+  - apiVersion: v1
+    appVersion: 1.2.1
+    created: "2025-05-22T16:05:11.878091125Z"
+    description: Kubernetes Gateway API
+    digest: c7dd2872ae21e01310c0dfea9ffb1e3e42da88180c906f22a3c9856da5b055e8
+    icon: icons/android-192x192.png
+    keywords:
+    - Kubernetes Gateway API
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: kubernetes-gateway-api-crds
+    sources:
+    - https://github.com/kubernetes-sigs/gateway-api
+    urls:
+    - kubernetes-gateway-api-crds-1.2.1.tgz
+    version: 1.2.1
+  kubevirt:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2025-05-22T16:05:11.884279316Z"
+    description: 'KubeVirt enables the management of traditional virtual machines
+      as pods in a Kubernetes cluster. '
+    digest: 6040bf356c65f71464d1fa2764448cc68ca28c547dc177535f4b630953435231
+    icon: icons/KubeVirt_icon.png
+    kubeVersion: '>= 1.29.0 < 1.32.0'
+    name: kubevirt
+    type: application
+    urls:
+    - kubevirt-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-05-22T16:05:11.882387767Z"
+    description: 'KubeVirt enables the management of traditional virtual machines
+      as pods in a Kubernetes cluster. '
+    digest: b30afaad31b24a3c14b621a34255e1e6a18b44132c953a66f456d4cb30c7f031
+    icon: icons/KubeVirt_icon.png
+    kubeVersion: <= 1.30.0
+    name: kubevirt
+    type: application
+    urls:
+    - kubevirt-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.59.0
+    created: "2025-05-22T16:05:11.880761722Z"
+    description: 'KubeVirt enables the management of traditional virtual machines
+      as pods in a Kubernetes cluster. '
+    digest: d06b18dd24fb31e40157b7287b5f958cef7a0dbf890ad5f3e3f5d346c7f627e7
+    icon: icons/KubeVirt_icon.png
+    kubeVersion: <= 1.29.0
+    name: kubevirt
+    type: application
+    urls:
+    - kubevirt-0.59.0.tgz
+    version: 0.59.0
+  - apiVersion: v2
+    appVersion: 0.58.0
+    created: "2025-05-22T16:05:11.87958568Z"
+    description: 'KubeVirt enables the management of traditional virtual machines
+      as pods in a Kubernetes cluster. '
+    digest: c07d81cb1276cc4fa0382e8a8c50d822ad14b84bce227cc0f78d5b43c2529074
+    icon: icons/KubeVirt_icon.png
+    kubeVersion: <= 1.28.0
+    name: kubevirt
+    type: application
+    urls:
+    - kubevirt-0.58.0.tgz
+    version: 0.58.0
+  metallb:
+  - apiVersion: v2
+    appVersion: 0.13.10
+    created: "2025-05-22T16:05:11.886631248Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.13.10
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    digest: afd01a4be8cc5112d3423e0ed838db8c46e407f1e1baca241327fac0dfb1b91c
+    home: https://metallb.universe.tf
+    icon: icons/metallb-blue.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    type: application
+    urls:
+    - metallb-0.13.10.tgz
+    version: 0.13.10
+  - apiVersion: v2
+    appVersion: 0.12.1
+    created: "2025-05-22T16:05:11.885162692Z"
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    digest: 84a5738b811e17a8e5f5c8d0bdc6fc7ed170e7b34525077323b68e5621f0ca75
+    home: https://metallb.universe.tf
+    icon: icons/metallb-blue.svg
+    kubeVersion: <= 1.31.0
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    type: application
+    urls:
+    - metallb-0.12.1.tgz
+    version: 0.12.1
+  multus:
+  - apiVersion: v2
+    appVersion: 4.0.2
+    created: "2025-05-22T16:05:11.886866325Z"
+    digest: e63387cc5617d909347a7997c9724073bb5245e1fdd88977f4249903369f3b47
+    icon: icons/Multus.png
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: multus
+    sources:
+    - https://github.com/k8snetworkplumbingwg/multus-cni.git
+    type: application
+    urls:
+    - multus-4.0.2.tgz
+    version: 4.0.2
+  oauth2-proxy:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: allow templates in annotations
+          links:
+            - name: Github PR
+              url: https://github.com/oauth2-proxy/manifests/pull/256
+    apiVersion: v2
+    appVersion: 7.8.0
+    created: "2025-05-22T16:05:11.888373434Z"
+    description: A reverse proxy that provides authentication with Google, Github
+      or other providers
+    digest: ba204e335e20b3af6dcdeafcb78996127e59975901b6a3a81b789ad21f006937
+    home: https://oauth2-proxy.github.io/oauth2-proxy/
+    icon: icons/OAuth2_Proxy_horizontal.svg
+    keywords:
+    - kubernetes
+    - oauth
+    - oauth2
+    - authentication
+    - google
+    - github
+    - redis
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - name: tlawrie
+    - email: nicholas.meves@gmail.com
+      name: NickMeves
+    - email: joel.speed@hotmail.co.uk
+      name: JoelSpeed
+    - email: pierluigi.lenoci@gmail.com
+      name: pierluigilenoci
+    name: oauth2-proxy
+    sources:
+    - https://github.com/oauth2-proxy/oauth2-proxy
+    - https://github.com/oauth2-proxy/manifests
+    urls:
+    - oauth2-proxy-7.8.0.tgz
+    version: 7.8.0
+  oci-capi:
+  - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2025-05-22T16:05:11.897009121Z"
+    description: Helm chart for Cluster API Provider OCI
+    digest: 89e2fb46c143c62b42f06f487625825735bfc7a3d1dea78a5085a8c32bfd6641
+    icon: icons/oci-capi-logo.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: oci-capi
+    type: application
+    urls:
+    - oci-capi-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    appVersion: 0.15.0
+    created: "2025-05-22T16:05:11.892410886Z"
+    description: Helm chart for Cluster API Provider OCI
+    digest: 8dc3cc2dcf019e010abe53f0251472df5966d88bf54b5b705dc7fdfd992a0689
+    icon: icons/oci-capi-logo.svg
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: oci-capi
+    type: application
+    urls:
+    - oci-capi-0.15.0.tgz
+    version: 0.15.0
+  oci-ccm:
+  - apiVersion: v1
+    appVersion: 1.30.0
+    created: "2025-05-22T16:05:11.898200621Z"
+    description: Oracle Cloud Infrastructure (OCI) cloud controller manager
+    digest: 052312855186174b46b6607b19466e565da840cfc7427c2c9821e3e4d6c66168
+    icon: icons/oracle.png
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    maintainers:
+    - email: thomas.tanaka@oracle.com
+      name: Thomas Tanaka
+    - email: shih-chang.chen@oracle.com
+      name: Shih-Chang Chen
+    name: oci-ccm
+    urls:
+    - oci-ccm-1.30.0.tgz
+    version: 1.30.0
+  - apiVersion: v1
+    appVersion: 1.28.0
+    created: "2025-05-22T16:05:11.897827252Z"
+    description: Oracle Cloud Infrastructure (OCI) cloud controller manager
+    digest: 9c1f8d21f5918e8352b6432eb1dbb8d4df542830e832e799ad67377b1ba2d351
+    icon: icons/oracle.png
+    kubeVersion: <= 1.31.0
+    maintainers:
+    - email: thomas.tanaka@oracle.com
+      name: Thomas Tanaka
+    - email: shih-chang.chen@oracle.com
+      name: Shih-Chang Chen
+    name: oci-ccm
+    urls:
+    - oci-ccm-1.28.0.tgz
+    version: 1.28.0
+  - apiVersion: v1
+    appVersion: 1.27.2
+    created: "2025-05-22T16:05:11.89739889Z"
+    description: Oracle Cloud Infrastructure (OCI) cloud controller manager
+    digest: 0af5b5db0b766c0066297cbf6b6ff184bee656057117226bea407a4e2148e9aa
+    icon: icons/oracle.png
+    kubeVersion: <= 1.31.0
+    maintainers:
+    - email: thomas.tanaka@oracle.com
+      name: Thomas Tanaka
+    - email: shih-chang.chen@oracle.com
+      name: Shih-Chang Chen
+    name: oci-ccm
+    urls:
+    - oci-ccm-1.27.2.tgz
+    version: 1.27.2
+  ocne-catalog:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-05-22T16:05:11.89868516Z"
+    description: The Oracle Cloud Native Environment Application Catalog
+    digest: 2cecb4e2668d82b8612cdf2662f35062125575f8e61c0d8c8931b2a701085a36
+    icon: icons/oracle.png
+    kubeVersion: '>= 1.0.0'
+    name: ocne-catalog
+    type: application
+    urls:
+    - ocne-catalog-2.0.0.tgz
+    version: 2.0.0
+  olvm-capi:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-05-22T16:05:11.899672704Z"
+    description: Helm chart for Cluster API Provider OLVM
+    digest: baddb59797cd122c8de79d2b8f4383277b4146ad2d2f25a1b3bae788b303c3f5
+    icon: icons/oracle.png
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: olvm-capi
+    type: application
+    urls:
+    - olvm-capi-1.0.0.tgz
+    version: 1.0.0
+  opensearch:
+  - apiVersion: v2
+    appVersion: 2.15.0
+    created: "2025-05-22T16:05:11.90072478Z"
+    description: A Helm chart for OpenSearch
+    digest: 5390853db8b3061438ff5c687d13701f8ef264414f84765d9a5ccff18e102de7
+    home: https://opensearch.org
+    icon: icons/opensearch_logo_default.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    sources:
+    - https://github.com/opensearch-project/opensearch
+    - https://github.com/opensearch-project/helm-charts
+    type: application
+    urls:
+    - opensearch-2.15.0.tgz
+    version: 2.15.0
+  opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.15.0
+    created: "2025-05-22T16:05:11.901388991Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: 5f83dab5008b01c1b1d136329c2d24acbcb25b0f2a199bee1801e3bc65539917
+    icon: icons/opensearch_logo_default.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.15.0.tgz
+    version: 2.15.0
+  ovirt-csi-driver:
+  - apiVersion: v2
+    appVersion: 4.20.0
+    created: "2025-05-22T16:05:11.902042851Z"
+    description: Implementation of a CSI driver for oVirt.
+    digest: 500adbd8b4548b28b0f8d4d37bedc7b65a7535de0a0e507a71cd78251ca95584
+    icon: icons/KubeVirt_icon.png
+    kubeVersion: '>= 1.30.0 < 1.32.0'
+    name: ovirt-csi-driver
+    type: application
+    urls:
+    - ovirt-csi-driver-4.20.0.tgz
+    version: 4.20.0
+  prometheus:
+  - apiVersion: v2
+    appVersion: 2.31.1
+    created: "2025-05-22T16:05:11.905519208Z"
+    description: Prometheus is a monitoring system and time series database.
+    digest: 2a119505aa060bfe5fe4d22138ce8df360764d9975b30b9cc659cf2847b4c838
+    home: https://prometheus.io/
+    icon: icons/prometheus-logo.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: murali.annamneni@oracle.com
+      name: Murali Annamneni
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/prometheus
+    type: application
+    urls:
+    - prometheus-2.31.1.tgz
+    version: 2.31.1
+  prometheus-adapter:
+  - apiVersion: v1
+    appVersion: 0.10.0
+    created: "2025-05-22T16:05:11.906275353Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: e7ab2f95a528f57681abfdc7e0ef92b0029bded2dcc6f4221526de03c8b0a7c1
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    icon: icons/prometheus-logo.svg
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+    - name: steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - prometheus-adapter-0.10.0.tgz
+    version: 0.10.0
+  prometheus-node-exporter:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.6.1
+    created: "2025-05-22T16:05:11.90738104Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: e1138afe7d0d29d23950bbce8d1ffa5d8603434bd73d301893dddc15300fe17d
+    home: https://github.com/prometheus/node_exporter/
+    icon: icons/prometheus-logo.svg
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-1.6.1.tgz
+    version: 1.6.1
+  rook:
+  - apiVersion: v2
+    appVersion: 1.12.3
+    created: "2025-05-22T16:05:11.92810808Z"
+    dependencies:
+    - name: library
+      repository: file://./charts/library
+      version: 0.0.1
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: 56eb1b59e7e88918bb3cf8187a9b29bf0d83ca35ea6eaa99dd205c4b938778a3
+    icon: icons/rook-logo.svg
+    kubeVersion: '>= 1.26.0 < 1.32.0'
+    name: rook
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - rook-1.12.3.tgz
+    version: 1.12.3
+  - apiVersion: v2
+    appVersion: 1.11.6
+    created: "2025-05-22T16:05:11.922145606Z"
+    dependencies:
+    - name: library
+      repository: file://./charts/library
+      version: 0.0.1
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: 1cd8bb3a000b80e871ee75cafb9984b5b7660da6a26a699a3e0e48c6913389a5
+    icon: icons/rook-logo.svg
+    kubeVersion: <= 1.29.0
+    name: rook
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - rook-1.11.6.tgz
+    version: 1.11.6
+  - apiVersion: v2
+    appVersion: 1.10.9
+    created: "2025-05-22T16:05:11.916295265Z"
+    dependencies:
+    - name: library
+      repository: file://./charts/library
+      version: 0.0.1
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: c4ef887a156c1dafebbaa3fb17eb70515fcfa40f3ac675e5c4dc76edf8ac6e04
+    icon: icons/rook-logo.svg
+    kubeVersion: <= 1.31.0
+    name: rook
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - rook-1.10.9.tgz
+    version: 1.10.9
+  tigera-operator:
+  - apiVersion: v2
+    appVersion: 1.32.4
+    created: "2025-05-22T16:05:11.940998398Z"
+    description: Installs the Tigera operator for Calico
+    digest: 8f72a8c5cf13a64cfe0f2a0b709931e1e4d7418a2b4322a5704cce6834c26248
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: icons/calico-logo.png
+    kubeVersion: '>= 1.28.0 < 1.32.0'
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - tigera-operator-1.32.4.tgz
+    version: 1.32.4
+  - apiVersion: v2
+    appVersion: 1.29.3
+    created: "2025-05-22T16:05:11.932131434Z"
+    description: Installs the Tigera operator for Calico
+    digest: 08dc99dcc603762bf55473713053aa6ef9fe39122ac9acf88d1b9ca3fd0d7fb1
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: icons/calico-logo.png
+    kubeVersion: <= 1.31.0
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - tigera-operator-1.29.3.tgz
+    version: 1.29.3
+  ui:
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/screenshots: |
+        - title: Cluster Overview
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/cluster_overview.png
+        - title: Cluster Chooser
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/cluster_chooser.png
+        - title: Nodes
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/nodes.png
+        - title: Resource edition
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/resource_edition.png
+        - title: Editor Documentation
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/editor_documentation.png
+        - title: Terminal
+          url: https://raw.githubusercontent.com/headlamp-k8s/headlamp/screenshots/screenshots/terminal.png
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-05-22T16:05:11.941727942Z"
+    description: Headlamp is an easy-to-use and extensible Kubernetes web UI.
+    digest: 73322575b390c16e2d40c8546e083b62c73182f342fcefc43ef393d03156b9ed
+    home: https://headlamp.dev/
+    icon: icons/oracle.png
+    keywords:
+    - kubernetes
+    - plugins
+    - kinvolk
+    - headlamp
+    - dashboard
+    - ui
+    - web
+    - monitoring
+    - logging
+    kubeVersion: '>= 1.0.0'
+    maintainers:
+    - name: kinvolk
+      url: https://kinvolk.io/
+    name: ui
+    sources:
+    - https://github.com/headlamp-k8s/headlamp/tree/main/charts/headlamp
+    - https://github.com/headlamp-k8s/headlamp
+    type: application
+    urls:
+    - ui-2.0.0.tgz
+    version: 2.0.0
+generated: "2025-05-22T16:05:11.768170727Z"
